@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: steelblue;
+}
+
+.empty{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border: 3px solid black;
+    background: white;
+}
+.fill{
+    background: url(https://source.unsplash.com/150x150/?nature,water);
+    width: 145px;
+    height: 145px;
+    cursor: pointer;
+}
+.hold{
+    border: 5px solid #ccc;
+}
+.hovered{
+    background: #333;
+    border-color: white;
+    border-style: dashed;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    body{
+        flex-direction: column;
+    }
+}
